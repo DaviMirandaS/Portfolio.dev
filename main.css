@@ -97,7 +97,7 @@ main{
 
   background-color: #141414;
   border-radius: 10px;
-  box-shadow: 1px 1px 8px var(--cor-secundaria), -1px -1px 8px var(--cor-secundaria);
+  box-shadow: 0.5px 0.5px 20px #111, -0.5px -0.5px 20px #111111;
 }
 
 .about img{
