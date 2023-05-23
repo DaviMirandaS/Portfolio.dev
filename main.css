@@ -77,6 +77,7 @@ main{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 30px;
 
   padding: 50px;
 
@@ -94,10 +95,16 @@ main{
 
   padding: 30px;
   text-align: center;
+  line-height: 22px;
 
-  background-color: #141414;
+  background-color: var(--cor-primaria);
   border-radius: 10px;
   box-shadow: 0.5px 0.5px 20px #111, -0.5px -0.5px 20px #111111;
+  transition: 0.1s ease-in-out;
+}
+
+.about h2, h3{
+  color: var(--cor-secundaria);
 }
 
 .about img{
@@ -107,5 +114,52 @@ main{
 }
 
 .tech{
+  padding: 30px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
 
+  background-color: var(--cor-primaria);
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 20px #111, -0.5px -0.5px 20px #111111;
+}
+
+.technolis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  text-align: center;
+  line-height: 22px;
+}
+
+.technolis img{
+  width: 60px;
+  height: 80px;
+
+  filter: drop-shadow(1px 1px 0.8px var(--cor-destaque)) drop-shadow(-1px -1px 0.8px var(--cor-destaque));
+}
+
+footer{
+  width: 100%;
+  padding: 10px;
+  background-color: var(--cor-primaria);
+  color: var(--cor-destaque);
+}
+
+footer div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+footer div a{
+  text-decoration: none;
+  color: var(--cor-secundaria);
 }
