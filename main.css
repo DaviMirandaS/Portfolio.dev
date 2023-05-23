@@ -9,10 +9,23 @@
 }
 
 :root{
-  --cor-primaria:#121212;
+  --cor-primaria:#141414;
   --cor-secundaria:rgb(206, 147, 37);
   --cor-destaque:#f3f9faea;
   --cor-background:#101010;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: var(--cor-background);
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background-color: var(--cor-secundaria);
 }
 
 .hed{
@@ -33,12 +46,11 @@ nav{
 
 .logo{
   font-size: 26px;
-  transition: 0.1s;
+  cursor: default;
 }
 .Dev{
   color: var(--cor-destaque);
   font-size: 15px;
-  transition: 0.1s;
 }
 
 nav ul li{
@@ -58,4 +70,42 @@ nav ul li a:hover{
   border-bottom: var(--cor-secundaria) solid 3px;
   border-radius: 3px;
   transition: 0.1s ease-in-out;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 50px;
+
+  background-color: var(--cor-background);
+  color: var(--cor-destaque);
+}
+
+.about{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 30px;
+  text-align: center;
+
+  background-color: #141414;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px var(--cor-secundaria), -1px -1px 8px var(--cor-secundaria);
+}
+
+.about img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.tech{
+
 }
