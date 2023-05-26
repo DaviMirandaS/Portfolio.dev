@@ -123,6 +123,8 @@ main{
   flex-direction: column;
   gap: 15px;
 
+  text-align: center;
+
   background-color: var(--cor-primaria);
   border-radius: 10px;
   box-shadow: 0.5px 0.5px 20px #111, -0.5px -0.5px 20px #111111;
@@ -201,8 +203,10 @@ main{
 }
 .contact span:nth-child(2){
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
-
+  gap: 20px;
 }
 
 footer{
