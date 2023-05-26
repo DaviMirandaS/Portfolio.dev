@@ -8,36 +8,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <link rel="favicon" href="https://media-private.canva.com/7Z2CE/MAFi1t7Z2CE/1/tl.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230513%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230513T080924Z&X-Amz-Expires=67142&X-Amz-Signature=d3f8d0b76b6f5d95150826a960d8b0d8a3b9345a40a3461683bf30590e380afa&X-Amz-SignedHeaders=host&response-expires=Sun%2C%2014%20May%202023%2002%3A48%3A26%20GMT">
+    <link rel="icon" href="./assets/icon.png">
     <title>Portfólio.Dev</title>
 </head>
 
 <body>
-  <div class="hed">
+  <div class="hed" id="hed">
     <nav>
       <h2 class="logo">Portfólio<span class="Dev"><i>.Dev</i></span></h2>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Contato</a></li>
-        <li><a href="#">Trabalhos</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#technologies">Technologies</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </div>
 
   <main>
-
-    <div class="about">
+    <div class="about" id="about">
       <img src="./assets/Davi.jpg" alt="Foto do Dev">
       <h2>Davi Miranda</h2>
-      <small>Criador do Projeto e Estudante de Programação.</small>
-      <h3>Sobre mim</h3>
-      <p>Olá, eu sou o Davi Miranda, eu tenho 18 anos e criei este projeto com intuíto de transforma-lo em uma aplicação completa ao longo dos meus estudos em programação.</p>
-    </div>
+      <small>Project Creator and Programming Student.</small>
+      <h3>About me</h3>
+      <p>Hello, I'm Davi Miranda, I'm 18 years old, I study computer science and I'm in the beginning of my career as a Developer.
+      I created this project with the intention of transforming it into a complete application throughout my studies in programming.</p>
+    </div> 
 
-    <div class="tech">
+    <div class="tech" id="technologies">
       <span>
-        <h3>Tecnologias</h3>
-        <small>Até o momento</small>
+        <h3>technologies</h3>
+        <small>at least for now</small>
       </span>
 
       <div class="technolis">
@@ -50,15 +51,43 @@
         </span>
       </div>
     </div>
+
+    <div class="projects" id="projects">
+      <span>
+        <h3>Projects</h3>
+        <small>at least for now</small>
+      </span>
+
+      <span>
+        <abbr title="https://github.com/DaviMirandaS/Portfolio.dev"><a href="https://github.com/DaviMirandaS/Portfolio.dev" target="_blank">Portfólio.Dev</a></abbr>
+        <abbr title="https://davimirandas.github.io/NLWspacetime/"><a href="https://github.com/DaviMirandaS/NLWspacetime" target="_blank">Nlw Spacetime</a></abbr>
+      </span>
+    </div>
+
+    <div class="contact" id="contact">
+      <span>
+        <h3>Contact</h3>
+        <small>Choose where you want to speak with me.</small>
+      </span>
+
+      <span>
+        <a href="https://github.com/DaviMirandaS" target="_blank"><img src="./assets/icons8_octocat.ico" alt="Github"></a>
+
+        <a href="https://www.instagram.com/davims.dev/" target="_blank"><img src="./assets/icons8_instagram.ico" alt="instagram"></a>
+
+        <a href="https://mail.google.com/mail/u/1/#inbox?compose=DmwnWsczmvSjTbjLtdJFkZLClsgPrqlTchwbCzcZBqrpTFXhrGJSvTVwmztjczDhPNKmsDvmdZxl" target="_blank"><img src="./assets/icons8_phone.ico" alt="Phone"></a>
+
+        <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJTLphmcQmKRwzwRHXfFqpZpDhgpQvvZjlSSVfZfZBPHVRGhMBLCbLbSMxpPxsxgjtqjQlq" target="_blank"><img src="./assets/icons8_Letter.ico" alt="Letter"></a>
+      </span>
+    </div>
   </main>
 
   <footer>
     <div>
-      <p>Copyright &copy; 2023 <a href="./index.html" target="_self">Portfólio.Dev</a> Todos os direitos reservados.</p>
+      <p>Copyright &copy; 2023 <a href="#hed" target="_self">Portfólio.Dev</a> Todos os direitos reservados.</p>
 
       <p>Powered by <a href="https://github.com/DaviMirandaS" target="_blank">Davi Miranda</a></p>
     </div>
   </footer>
-
 </body>
 </html>
