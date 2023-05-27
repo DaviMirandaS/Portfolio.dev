@@ -226,6 +226,8 @@ footer div a{
   color: var(--cor-secundaria);
 }
 
+
+
 @media(max-width: 790px){
   main{
     padding: 10px;
@@ -276,6 +278,63 @@ footer div a{
   }
 
   footer{
-    font-size: 20px;
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 480px){
+  main{
+    padding: 10px;
+  }
+
+  .logo{
+    font-size: 17px;
+  }
+  .Dev{
+    font-size: 11px;
+  }
+  nav{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 1%;
+    padding-right: 3%;
+  }
+  nav ul li{
+    padding: 3px 5px;
+  }
+  nav ul li a{
+    font-size: 10px;
+  }
+
+  .about{
+    width: 95%;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  .tech{
+    width: 95%;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .technolis img{
+    width: 80px;
+    height: 100px;
+  }
+
+  .projects{
+    width: 95%;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  .contact{
+    width: 95%;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  footer{
+    font-size: 10px;
   }
 }
