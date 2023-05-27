@@ -238,6 +238,8 @@ footer div a{
     font-size: 12px;
   }
   nav{
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 1%;
     padding-right: 3%;
   }
