@@ -29,7 +29,6 @@
 }
 
 .hed{
-  position: sticky;
   width: 100%;
   background-color: var(--cor-primaria);
   color: var(--cor-secundaria);
@@ -225,4 +224,56 @@ footer div{
 footer div a{
   text-decoration: none;
   color: var(--cor-secundaria);
+}
+
+@media(max-width: 790px){
+  main{
+    padding: 10px;
+  }
+
+  .logo{
+    font-size: 18;
+  }
+  .Dev{
+    font-size: 12px;
+  }
+  nav{
+    padding-left: 1%;
+    padding-right: 3%;
+  }
+  nav ul li{
+    padding: 3px 5px;
+  }
+
+  .about{
+    width: 95%;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .tech{
+    width: 95%;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .technolis img{
+    width: 80px;
+    height: 100px;
+  }
+
+  .projects{
+    width: 95%;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .contact{
+    width: 95%;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  footer{
+    font-size: 20px;
+  }
 }
