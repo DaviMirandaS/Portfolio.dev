@@ -95,7 +95,7 @@ main{
 
   padding: 30px;
   text-align: center;
-  line-height: 22px;
+  line-height: 25px;
 
   background-color: var(--cor-primaria);
   border-radius: 10px;
@@ -253,6 +253,7 @@ footer div a{
     width: 95%;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
   }
 
   .tech{
@@ -310,6 +311,7 @@ footer div a{
     width: 95%;
     padding: 20px;
     font-size: 15px;
+    line-height: 30px;
   }
 
   .tech{
@@ -318,14 +320,75 @@ footer div a{
     font-size: 15px;
   }
   .technolis img{
-    width: 80px;
-    height: 100px;
+    width: 60px;
+    height: 80px;
   }
 
   .projects{
     width: 95%;
     padding: 20px;
     font-size: 15px;
+  }
+
+  .contact{
+    width: 95%;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  footer{
+    font-size: 10px;
+  }
+}
+
+@media(max-width: 365px){
+  main{
+    padding: 10px;
+  }
+
+  .logo{
+    font-size: 14px;
+  }
+  .Dev{
+    font-size: 8px;
+  }
+  nav{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 1%;
+    padding-right: 3%;
+  }
+  nav ul li{
+    padding: 3px 5px;
+  }
+  nav ul li a{
+    font-size: 8px;
+  }
+
+  .about{
+    width: 95%;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .tech{
+    width: 95%;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .technolis img{
+    width: 60px;
+    height: 80px;
+  }
+
+  .projects{
+    width: 95%;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .projects span:nth-child(2) a{
+    font-size: 10px;
   }
 
   .contact{
